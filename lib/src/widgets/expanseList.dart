@@ -19,8 +19,9 @@ class ExpansesList extends StatelessWidget {
               elevation: 5,
               margin: EdgeInsets.symmetric(vertical: 8, horizontal: 5),
               child: Container(
+                margin: EdgeInsets.only(left: 20),
+                height: 50,
                 padding: EdgeInsets.all(12),
-
                 child: Row(children: [
                   Container(
                     child: Text(
@@ -34,9 +35,7 @@ class ExpansesList extends StatelessWidget {
                   ),
                   Container(
                     margin: EdgeInsets.only(left: 10),
-                    child: Text(
-                      '${expanses[index].amount}€'
-                    ),
+                    child: Text('${expanses[index].amount}€'),
                   ),
                 ]),
               ),
