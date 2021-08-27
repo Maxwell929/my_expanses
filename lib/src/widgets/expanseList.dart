@@ -36,6 +36,12 @@ class ExpansesList extends StatelessWidget {
                     margin: EdgeInsets.only(left: 10),
                     child: Text('${expanses[index].amount}€'),
                   ),
+                  Container(
+                    child: Icon(
+                      Icons.delete,
+                      color: Colors.red,
+                    ),
+                  )
                 ]),
               ),
             );
