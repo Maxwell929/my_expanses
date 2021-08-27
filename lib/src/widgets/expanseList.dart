@@ -10,7 +10,6 @@ class ExpansesList extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 300,
-      color: Colors.red,
       padding: EdgeInsets.all(10),
       child: ListView.builder(
           itemCount: expanses.length,
